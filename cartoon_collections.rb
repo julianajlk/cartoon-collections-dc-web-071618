@@ -13,7 +13,7 @@ end
 
 def long_planeteer_calls(calls)# code an argument here
   # Your code here
-  calls.any {|call| call.to_s.length > 4}
+  calls.any? {|call| call.to_s.length > 4}
 end
 
 def find_the_cheese(cheese)# code an argument here
